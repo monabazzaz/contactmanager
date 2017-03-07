@@ -18,35 +18,31 @@
 <?php endif; ?>
 
     <h1>All Contacts <span class="text-muted"><?count($contacts); ?></span></h1>
-    <table class="table table-hover">
-      <thead>
-        <th>ID</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Title</th>
-        <th>Address</th>
-        <th>City</th>
-        <th>State</th>
-        <th>Zip Code</th>
-        <th>Phone</th>
-        <th>Notes</th>
-      </thead>
-      <tbody>
+    <div class="columns">
+      <div class="column">ID</div>
+      <div class="column">First Name</div>
+      <div class="column">Last Name</div>
+      <div class="column">Title</div>
+      <div class="column">Address</div>
+      <div class="column">City</div>
+      <div class="column">State</div>
+      <div class="column">Zip Code</div>
+      <div class="column">Phone</div>
+      <div class="column">Notes</div>
+    </div>
         <?php foreach($contacts as $contact) : ?>
-        <tr>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['id']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['firstName']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['lastName']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['title']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['address']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['city']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['state']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['zip']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['phone']; ?></a></td>
-          <td><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['notes']; ?></a></td>
-        </tr>
+    <div class="columns">
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['id']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['firstName']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['lastName']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['title']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['address']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['city']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['state']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['zip']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['phone']; ?></a></div>
+      <div class="column"><a href="/edit.php?id=<?=$contact['id']; ?>"><?=$contact['notes']; ?></a></div>
+    </div>
       <?php endforeach; ?>
-      </tbody>
-    </table>
 
 <?php include 'footer.php'; ?>

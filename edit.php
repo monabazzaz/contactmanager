@@ -32,42 +32,48 @@
 
   <div class="form-group">
     <label for="contact_firstName">First Name</label>
-    <input class="form-control" type="text" name="firstName" id="firstName" value="<? $contact['firstName']; ?>" />
+    <input class="form-control" type="text" name="firstName" id="contact_firstName" value="<? $contact['firstName']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="contact_lastName">Last Name</label>
-    <input class="form-control" type="text" name="lastName" id="lastName" value="<? $contact['lastName']; ?>" />
+    <input class="form-control" type="text" name="lastName" id="contact_lastName" value="<? $contact['lastName']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="contact_title">Title</label>
-    <input class="form-control" type="text" name="title" id="title" value="<? $contact['title']; ?>" />
+    <select name="title" id="contact_title" value="<?= $contact['title']; ?>" class="form-control">
+      <option>Select Dropdown</option>
+      <option>Mrs.</option>
+      <option>Mr.</option>
+      <option>Miss.</option>
+      <option>Ms.</option>
+    </select>
   </div>
 
   <div class="form-group">
     <label for="contact_address">Address</label>
-    <input class="form-control" type="text" name="address" id="address" value="<? $contact['address']; ?>" />
+    <input class="form-control" type="text" name="address" id="contact_address" value="<? $contact['address']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="contact_city">City</label>
-    <input class="form-control" type="text" name="city" id="city" value="<? $contact['city']; ?>" />
+    <input class="form-control" type="text" name="city" id="contact_city" value="<? $contact['city']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="contact_state">State</label>
-    <input class="form-control" type="text" name="state" id="state" value="<? $contact['state']; ?>" />
+    <input class="form-control" type="text" name="state" id="contact_state" value="<? $contact['state']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="contact_phone">Phone Number</label>
-    <input class="form-control" type="text" name="phone" id="phone" value="<? $contact['phone']; ?>" />
+    <input class="form-control" type="text" name="phone" id="contact_phone" value="<? $contact['phone']; ?>" />
   </div>
 
   <div class="form-group">
     <label for="contact_notes">Notes</label>
-    <textarea class="form-control" type="text" name="notes" id="notes"><?= $contact['notes']; ?> </textarea>
+    <textarea class="form-control" type="text" name="notes" id="contact_notes"><?= $contact['notes']; ?> </textarea>
   </div>
 
 <button class="btn btn-primary">Save Contact</button>

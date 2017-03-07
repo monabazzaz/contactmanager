@@ -11,6 +11,7 @@ include 'database.php';
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="node_modules/bulma/css/bulma.css" rel="stylesheet">
   </head>
 
   <body>
@@ -40,4 +41,3 @@ include 'database.php';
     </nav>
 
     <div class="row">
-      <div class="col-md-6">
