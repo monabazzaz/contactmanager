@@ -1,0 +1,144 @@
+.container {
+  padding-top: 25px;
+}
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em;
+  color: #8cb1d9 !important;
+}
+
+.navbar-right li a {
+  font-family: 'Noticia Text', serif;
+  color: #8cb1d9 !important;
+}
+
+.navbar-right li a:hover {
+  color: #336699 !important;
+}
+
+.navbar-right li a:active {
+  text-decoration: underline;
+}
+
+.styletitle {
+  font-family: 'Merriweather', serif;
+  color: #336699;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.fonts {
+  font-family: 'Merriweather', serif;
+  color: #8cb1d9;
+  text-align: center;
+  border: 1px solid #336699;
+  padding: 15px;
+}
+
+.merris {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: rgba(242, 242, 242, 0.6);
+}
+
+.merri1 {
+  font-family: 'Merriweather', serif;
+  color: #336699;
+  text-align: center;
+}
+
+.merri2 {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  color: #336699;
+  text-align: center;
+}
+
+.merri3 {
+  font-family: 'Merriweather', serif;
+  color: #336699;
+  text-align: center;
+}
+
+.notis {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: rgba(242, 242, 242, 0.6);
+}
+
+.noti1 {
+  font-family: 'Noticia Text', serif;
+  color: #336699;
+  text-align: center;
+}
+
+.noti2 {
+  font-family: 'Noticia Text', serif;
+  font-style: italic;
+  color: #336699;
+  text-align: center;
+}
+
+.dkblu {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding-bottom: 100px;
+  background-color: #336699;
+}
+
+.ltblu {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding-bottom: 100px;
+  background-color: #8cb1d9;
+}
+
+.gry {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding-bottom: 100px;
+  background-color: #999999;
+}
+
+.ltgry {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding-bottom: 100px;
+  background-color: rgba(242, 242, 242, 0.6);
+}
+
+.wht {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding-bottom: 100px;
+  background-color: #ffffff;
+}
+
+.yel {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding-bottom: 100px;
+  background-color: #ffff00;
+}
+
+.xamps {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: rgba(242, 242, 242, 0.6);
+}
+
+.merrihed1 {
+  font-family: 'Merriweather', serif;
+  color: #336699;
+  text-align: center;
+}
+
+.notihed1 {
+  font-family: 'Noticia Text', serif;
+  color: #336699;
+  text-align: center;
+}
