@@ -1,0 +1,111 @@
+.container {
+  padding-top: 25px;
+}
+
+.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em;
+  color: #8cb1d9 !important;
+}
+
+.navbar-right li a {
+  font-family: 'Noticia Text', serif;
+  color: #8cb1d9 !important;
+}
+
+.navbar-right li a:hover {
+  color: #336699 !important;
+}
+
+.navbar-right li a:active {
+  text-decoration: underline;
+}
+
+.allcontacts {
+  font-family: 'Merriweather', serif;
+  color: #336699;
+  text-align: center;
+}
+
+th {
+  font-family: 'Merriweather', serif;
+  color: #8cb1d9;
+}
+
+td a {
+  font-family: 'Noticia Text', serif;
+  color: #999999 !important;
+}
+
+td a:hover {
+  color: #336699 !important;
+  text-decoration: none;
+}
+
+.editcontact {
+  font-family: 'Merriweather', serif !important;
+  color: #336699 !important;
+  text-align: center !important;
+}
+
+.addcontact {
+  font-family: 'Merriweather', serif !important;
+  color: #336699 !important;
+  text-align: center !important;
+}
+
+label {
+  font-family: 'Merriweather', serif;
+  color: #8cb1d9;
+}
+
+input {
+  font-family: 'Merriweather', serif;
+  color: #999999;
+}
+
+.value {
+  font-family: 'Merriweather', serif;
+  color: #999999;
+}
+
+.btn-primary {
+  margin-bottom: 25px;
+  font-family: 'Merriweather', serif;
+  background-color: #336699;
+}
+
+.btn-delete {
+  font-family: 'Merriweather', serif;
+  background-color: #8cb1d9;
+  border-color: #8cb1d9;
+  color: white;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #8cb1d9;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer p {
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+footer p a {
+  color: #336699 !important;
+}
+
+@media screen and (max-width: 780px){
+  .mobile-none {
+    display: none;
+  }
+}

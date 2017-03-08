@@ -17,11 +17,11 @@
     ':state' => $_POST['state'],
     ':zip' => $_POST['zip'],
     ':phone' => $_POST['phone'],
-    ':notes' => array_key_exists('notes',$_POST) ? $_POST['notes'] : 0
+    ':notes' => $_POST['notes']
   ));
 
   $id = $db->lastInsertId();
 
-  // header('Location: http://localhost:8080/edit.php?id=' . $id . '&created=true');
+  header('Location: http://localhost:8080/edit.php?id=' . $id . '&created=true');
 
 ?>

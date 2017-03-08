@@ -4,7 +4,7 @@
 
 ?>
 
-<h1>Add Contact</h1>
+<h1 class="addcontact">Add Contact</h1>
 
 <form method="POST" action="/create.php">
 
@@ -20,27 +20,33 @@
 
   <div class="form-group">
     <label for="contact_title">Title</label>
-    <input class="form-control" name="title" id="title" value="" placeholder="Title" />
+    <select name="title" id="title" value="" class="form-control" />
+      <option value="1">Select Title</option>
+      <option value="2">Mrs.</option>
+      <option value="3">Mr.</option>
+      <option value="4">Miss</option>
+      <option value="5">Ms.</option>
+    </select>
   </div>
 
   <div class="form-group">
     <label for="contact_address">Address</label>
-    <input class="form-control" name="address" id="Address" value="" placeholder="Address" />
+    <input class="form-control" name="address" id="address" value="" placeholder="Address" />
   </div>
 
   <div class="form-group">
     <label for="contact_city">City</label>
-    <input class="form-control" name="" id="city" value="" placeholder="city" />
+    <input class="form-control" name="city" id="city" value="" placeholder="City" />
   </div>
 
   <div class="form-group">
     <label for="contact_state">State</label>
-    <input class="form-control" name="state" id="state" value="" placeholder="state" />
+    <input class="form-control" name="state" id="state" value="" placeholder="State" />
   </div>
 
   <div class="form-group">
     <label for="contact_zip">Zip Code</label>
-    <input class="form-control" name="zip" id="zip" value="" placeholder="zip" />
+    <input class="form-control" name="zip" id="zip" value="" placeholder="Zip Code" />
   </div>
 
   <div class="form-group">
@@ -55,5 +61,6 @@
 
   <button class="btn btn-primary">Create New Contact</button>
 </form>
+
 
 <?php include 'footer.php'; ?>
