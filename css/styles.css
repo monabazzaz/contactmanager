@@ -69,6 +69,11 @@ textarea {
   color: #999999;
 }
 
+form {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #contact_title {
   font-family: 'Merriweather', serif;
   color: #999999;
@@ -90,6 +95,7 @@ textarea {
   background-color: #8cb1d9;
   border-color: #8cb1d9;
   color: white;
+  margin-right: 10px;
 }
 
 footer {

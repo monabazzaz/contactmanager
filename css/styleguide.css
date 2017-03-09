@@ -269,7 +269,21 @@
 h4 {
   font-family: 'Noticia Text', serif;
   color: #336699;
-  padding-left: 10px;
+  padding-left: 30px;
   padding-right: 10px;
   padding-top: 5px;
+}
+
+ol {
+  font-family: 'Merriweather', serif;
+  color: #999999;
+  padding-left: 50px;
+  padding-right: 10px;
+}
+
+ul {
+  font-family: 'Merriweather', serif;
+  color: #999999;
+  padding-left: 50px;
+  padding-right: 10px;
 }
