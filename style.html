@@ -204,6 +204,37 @@
     </div>
     <br>
     <br>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <h2 class="fonts">INPUT AREAS</h2>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-6 xamps">
+        <h4>Text Input</h4>
+        <div class="form-group">
+          <label for="contact_firstName">First Name</label>
+          <input class="form-control" type="text" name="firstName" id="contact_firstName" placeholder="First Name" />
+        </div>
+        <h4>Select Input</h4>
+        <div class="form-group">
+          <label for="contact_title">Title</label>
+          <select name="title" id="contact_title" value="<?= $contact['title']; ?>" class="form-control">
+            <option value="1"<?= ($contact['title'] == 1) ? 'selected' : '' ?>Select Title</option>
+            <option value="2"<?= ($contact['title'] == 2) ? 'selected' : '' ?>Mrs.</option>
+            <option value="3"<?= ($contact['title'] == 3) ? 'selected' : '' ?>Mr.</option>
+            <option value="4"<?= ($contact['title'] == 4) ? 'selected' : '' ?>Miss</option>
+            <option value="5"<?= ($contact['title'] == 5) ? 'selected' : '' ?>Ms.</option>
+          </select>
+        </div>
+        <h4>Textarea Input</h4>
+        <div class="form-group">
+          <label for="contact_notes">Notes</label>
+          <textarea class="form-control" name="notes" id="notes" value="" placeholder="Enter notes here"></textarea>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
 
 
   </div>

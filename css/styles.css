@@ -69,6 +69,11 @@ textarea {
   color: #999999;
 }
 
+#contact_title {
+  font-family: 'Merriweather', serif;
+  color: #999999;
+}
+
 .value {
   font-family: 'Merriweather', serif;
   color: #999999;

@@ -56,7 +56,7 @@
 
   <div class="form-group">
     <label for="contact_notes">Notes</label>
-    <textarea class="form-control" name="notes" id="notes" value="" placeholder="Enter notes here"> </textarea>
+    <textarea class="form-control" name="notes" id="notes" value="" placeholder="Enter notes here"></textarea>
   </div>
 
   <button class="btn btn-primary">Create New Contact</button>
