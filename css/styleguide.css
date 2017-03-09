@@ -226,8 +226,9 @@
 .btns {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
-  padding: 20px 5px 20px 5px;
+  padding: 30px 5px 10px 5px;
   background-color: rgba(242, 242, 242, 0.6);
+  text-align: center;
 }
 
 .btn-sm {
@@ -235,9 +236,11 @@
   font-family: 'Merriweather', serif;
   background-color: #336699;
   border-radius: 5px;
+  color: white;
 }
 
 .btn-md {
+  margin-bottom: 25px;
   font-family: 'Merriweather', serif;
   background-color: #8cb1d9;
   border-color: #8cb1d9;
@@ -248,4 +251,5 @@
   margin-bottom: 25px;
   font-family: 'Merriweather', serif;
   background-color: #336699;
+  color: white;
 }
