@@ -1,7 +1,10 @@
+/*This is the CSS styleguide for the style guide page*/
+
 .container {
   padding-top: 25px;
 }
 
+/*Navbar styling for the entire application*/
 .navbar-brand {
   font-family: 'Merriweather', serif;
   font-size: 1.5em;
@@ -21,6 +24,7 @@
   text-decoration: underline;
 }
 
+/*Header for the style guide*/
 .styletitle {
   font-family: 'Merriweather', serif;
   color: #336699;
@@ -28,6 +32,7 @@
   padding-bottom: 40px;
 }
 
+/*This actually styles the labels for each style asset*/
 .fonts {
   font-family: 'Merriweather', serif;
   color: #8cb1d9;
@@ -175,8 +180,8 @@
 .yel {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
-  background-color: #ffff00;
-  color: #ffff00;
+  background-color: #fccd3f;
+  color: #fccd3f;
 }
 
 .yel h3 {

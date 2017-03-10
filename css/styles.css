@@ -1,5 +1,14 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%
+}
+
 .container {
   padding-top: 25px;
+  min-height: 100%;
 }
 
 .navbar-brand {
@@ -98,16 +107,9 @@ form {
   margin-right: 10px;
 }
 
-footer {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.no-padding {
+  padding: 10px 0 0 0;
   background-color: #8cb1d9;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 footer p {
@@ -117,11 +119,11 @@ footer p {
 }
 
 footer p a:link {
-  color: #ffff00 !important;
+  color: #fccd3f !important;
 }
 
 footer p a:visited {
-  color: #ffff00 !important;
+  color: #fccd3f !important;
 }
 
 @media screen and (max-width: 780px){

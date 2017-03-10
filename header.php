@@ -32,7 +32,7 @@ include 'database.php';
         </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/index.php">All Contacts</a></li>
             <li><a href="/new.php">Add New</a></li>
@@ -41,5 +41,6 @@ include 'database.php';
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
 
     <div class="row">
