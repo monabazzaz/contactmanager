@@ -1,3 +1,4 @@
+<!---implements the actions of deleting a contact if user selects the delete button--->
 <?php
 
   include 'database.php';

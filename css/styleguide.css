@@ -41,6 +41,7 @@
   padding: 15px;
 }
 
+/*Styling for gray boxes around style guide examples on the right side of the page*/
 .merris {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -48,6 +49,7 @@
   background-color: rgba(242, 242, 242, 0.6);
 }
 
+/*Styling 3 possible Merriweather font styles*/
 .merri1 {
   font-family: 'Merriweather', serif;
   color: #336699;
@@ -67,6 +69,7 @@
   text-align: center;
 }
 
+/*Styling for gray boxes around style guide examples on the right side of the page*/
 .notis {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -74,6 +77,7 @@
   background-color: rgba(242, 242, 242, 0.6);
 }
 
+/*Styling the two different kinds of Notica Text font*/
 .noti1 {
   font-family: 'Noticia Text', serif;
   color: #336699;
@@ -87,6 +91,7 @@
   text-align: center;
 }
 
+/*styles for dark blue box*/
 .dkblu {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -105,6 +110,7 @@
   background: #00334d;
 }
 
+/*styles for light blue box*/
 .ltblu {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -123,6 +129,7 @@
   background: #00334d;
 }
 
+/*styles for dark grey box*/
 .gry {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -141,6 +148,7 @@
   background: #00334d;
 }
 
+/*styles for light grey box*/
 .ltgry {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -159,6 +167,7 @@
   background: #00334d;
 }
 
+/*styles for white box*/
 .wht {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -177,6 +186,7 @@
   background: #00334d;
 }
 
+/*styles for yellow box*/
 .yel {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -195,6 +205,7 @@
   background: #00334d;
 }
 
+/*Styling for gray boxes around style guide examples on the right side of the page*/
 .xamps {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -202,6 +213,7 @@
   background-color: rgba(242, 242, 242, 0.6);
 }
 
+/*the following are the styles for examples of h1 h2 h3 h4 h5 for each font*/
 .merrihed1 {
   font-family: 'Merriweather', serif;
   color: #336699;
@@ -214,6 +226,7 @@
   text-align: center;
 }
 
+/*the following are the styles for examples of paragraphs for each font*/
 .merrihed2 {
   font-family: 'Merriweather', serif;
   font-weight: 100;
@@ -228,6 +241,7 @@
   text-align: center;
 }
 
+/*Styling for gray boxes around style guide examples on the right side of the page*/
 .btns {
   border: 1px solid #e6e6e6;
   border-radius: 3px;
@@ -236,6 +250,7 @@
   text-align: center;
 }
 
+/*Styling for small medium and large buttons*/
 .btn-sm {
   margin-bottom: 25px;
   font-family: 'Merriweather', serif;
@@ -264,6 +279,7 @@
   color: #999999;
 }
 
+/*makes sure the form has padding on each side when on mobile*/
 .form-group {
     font-family: 'Merriweather', serif;
     color: #8cb1d9;
@@ -279,6 +295,7 @@ h4 {
   padding-top: 5px;
 }
 
+/*Styling for lists*/
 ol {
   font-family: 'Merriweather', serif;
   color: #999999;

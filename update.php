@@ -1,3 +1,6 @@
+<!---retrieves table values from database--->
+<!---existing contact data is set to its respective field and allows for edits to be made--->
+<!---directs user to update.php--->
 <?php
 
 include 'database.php';

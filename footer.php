@@ -5,6 +5,7 @@
 
   </div>
 
+<!---footer present on the bottom of each page of the application--->
     <div class="container-fluid no-padding">
       <footer>
         <div class="col-md-4"></div>
@@ -15,6 +16,7 @@
       </footer>
     </div>
 
+<!---references to needed bootstrap javascript--->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

@@ -6,11 +6,13 @@ body {
   height: 100%
 }
 
+/*makes sure footer stays at the bottom*/
 .container {
   padding-top: 25px;
   min-height: 100%;
 }
 
+/*Navbar styling for the entire application*/
 .navbar-brand {
   font-family: 'Merriweather', serif;
   font-size: 1.5em;
@@ -36,6 +38,7 @@ body {
   text-align: center;
 }
 
+/*Styling for table of contacts*/
 th {
   font-family: 'Merriweather', serif;
   color: #8cb1d9;
@@ -51,6 +54,7 @@ td a:hover {
   text-decoration: none;
 }
 
+/*form styling*/
 .editcontact {
   font-family: 'Merriweather', serif !important;
   color: #336699 !important;
@@ -93,6 +97,7 @@ form {
   color: #999999;
 }
 
+/*Styling for buttons*/
 .btn-primary {
   margin-bottom: 25px;
   font-family: 'Merriweather', serif;
@@ -107,6 +112,7 @@ form {
   margin-right: 10px;
 }
 
+/*Styling for footer*/
 .no-padding {
   padding: 10px 0 0 0;
   background-color: #8cb1d9;

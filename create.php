@@ -1,3 +1,6 @@
+<!---retrieves table values from database--->
+<!---array that binds inputed data to that section of the edit form--->
+<!---directs user to the frontend edit.php file which is what they see--->
 <?php
 
   include 'database.php';

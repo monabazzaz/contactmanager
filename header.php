@@ -9,6 +9,7 @@ include 'database.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Manager</title>
 
+<!---styles utilized linked here--->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arapey|Droid+Serif|Merriweather|Noticia+Text|Playfair+Display|Playfair+Display+SC|Quicksand" rel="stylesheet">
@@ -17,6 +18,7 @@ include 'database.php';
 
   <body>
     <div class="container">
+    <!---responsive navigation present on each page--->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
 
